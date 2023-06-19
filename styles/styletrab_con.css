@@ -1,0 +1,65 @@
+#img__trab__conosco{
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 480px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 100px;
+}
+article p{
+    width: 80vw;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+article ul li{
+    list-style: disc;
+    margin-left: 30px;
+}
+#video__acessibilidade{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.div-onda {
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    background-color: yellow;
+}
+
+.div-onda::after,
+.div-onda::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+}
+  
+.div-onda::before {
+    transform: skewY(-5deg);
+}
+
+.div-onda::after {
+    transform: skewY(5deg);
+    bottom: 80px;
+}
+
+.div-onda .onda-media {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 15px;
+    background-color: yellow;
+    transform: skewY(-5deg);
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+body, html{
+    height: 100vh;
+    width: 100%;
+}
+header{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.16);
+}
+#img__logo__mcdonalds{
+    height: 120px;
+}
+#conteiner__cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#sidebarUp{
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+#sideBar__link{
+    width: 40vw;
+    display: flex;
+    gap: 5%;
+}
+.sideBar__link__text{
+    font-size: .8em;
+    color: black;
+}
+#sideBar__btn{
+    width: 30vw;
+    display: flex;
+    gap: 30px;
+}
+.sideBar__link__text{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.fa-solid{
+    color: rgb(255, 204, 0);
+    font-size: 2.3em;
+}
+.sideBar__link__btn{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 191, 0);
+    padding: 6px 17px;
+    color: rgb(80, 80, 80);
+    border: 1px solid rgb(252, 228, 95);
+    border-radius: 5px;
+}
+.sideBar__link__btn:hover{
+    background-color: rgb(255, 225, 0);
+}
+#img_btn{
+    height: 35px;
+    margin-right: 10px;
+}
+#conteiner__sidebar_menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+#conteiner__sidebar_menu li{
+    font-size: 1em;
+    font-weight: 400;
+}
+.sidebarDown{
+    margin-top: 18px;
+}
