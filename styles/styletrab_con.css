@@ -4,7 +4,6 @@
     margin-bottom: 30px;
     height: 480px;
 }
-
 article{
     display: flex;
     flex-direction: column;
@@ -27,11 +26,14 @@ article ul li{
     left: 50%;
     transform: translate(-50%);
 }
+.flex{
+    display: flex;
+}
 .div-onda{
     position: relative;
     width: 100vw;
     height: 150px;
-    background-color: #ffcc00;
+    background-color: rgba(255, 179, 11, 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +42,7 @@ article ul li{
 .div-onda img{
     height: 100px;
 }
+
 .div-onda button{
     border: none;
     background-color: white;
@@ -68,4 +71,92 @@ article ul li{
     flex-direction: column;
     width: 150px;
     gap: 10px;
+}
+.links li{
+    color: gray;
+}
+.links li:hover{
+    color: black;
+}
+.title__ul{
+    color: black !important; 
+    font-weight: 500;
+}
+.img__down{
+    height: 40px;
+}
+.footer__redsoc__downloads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45%;
+    margin-top: 80px;
+}
+.footer__redeSociais{
+    display: flex;
+    gap: 20px;
+}
+.fa-brands{
+    color: gray;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+.fa-facebook-f{
+    padding: 5px 10px;
+}
+.fa-facebook-f:hover{
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+}
+.fa-twitter{
+    padding: 7px 7px;
+}
+.fa-twitter:hover{
+    color: white;
+    background-color: rgb(107, 107, 191);
+    border: 1px solid rgb(107, 107, 191);
+}
+.fa-instagram{
+    padding: 6px 8px;
+}
+.fa-instagram:hover{
+    color: white;
+    background-color: rgb(255, 0, 43);
+    border: 1px solid rgb(255, 0, 43);
+}
+.fa-youtube{
+    padding: 7px 7px;
+}
+.fa-youtube:hover{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
+.footer__finaly{
+    display: flex;
+    justify-content: center;
+    gap: 45%;
+    align-items: center;
+    margin-top: 80px;
+    border-top: 1px solid rgb(181, 181, 181);
+}
+.termos{
+    display: flex;
+    gap: 50px;
+}
+.termos a{
+    color: gray;
+}
+.termos a:hover{
+    color: black;
+}
+.autoral{
+    display: flex;
+    align-items: center;
+}
+.autoral img{
+    height: 60px;
 }
