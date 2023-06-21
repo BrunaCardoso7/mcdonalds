@@ -26,6 +26,9 @@ form h2{
     height: 38px;
     border-bottom: 1px solid rgb(184, 182, 182);
 }
+.input__form:focus{
+    outline: 1px solid gray;
+}
 .labels_form{
     position: absolute;
     left: 1px;
