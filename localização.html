@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/stylemain.css">
+    <link rel="stylesheet" href="./styles/stylemain.css">
     <link rel="stylesheet" href="./fontawasome/fontawesome-free-6.4.0-web/css/all.min.css">
-    <link rel="stylesheet" href="/styles/contatos.css">
-    <title>McDonalds | trabalhe conosco</title>
+    
+
+    <title>McDonalds | site com fins educativos</title>
 </head>
 <body>
     <header>
@@ -21,7 +22,7 @@
                     <ul id="sideBar__link">
                         <li><a href="trab_conosco.html" class="sideBar__link__text">Trabalhe conosco</a></li>
                         <li><a href="contatos.html" class="sideBar__link__text">Fale conosco</a></li>
-                        <li><a href="localização.html" class="sideBar__link__text">Méqui mais próximo</a></li>
+                        <li><a href="#" class="sideBar__link__text">Méqui mais próximo</a></li>
                     </ul>
                   
                     <div id="sideBar__btn">
@@ -44,60 +45,12 @@
         </div>
     </header>
     <main>
-        <div id="conteiner__form">
-            <h1 id="title__form">CONTATO</h1>
-            <P id="warning__form">ATENÇÃO: Caso queira enviar seu currículo ou consultar vagas de trabalho disponíveis, <a href="#">clique aqui</a>.</P>
-            <div class="forms">
-                <form action="#" method="post">
-                        <h2>Preencha o formulário abaixo e clique em Enviar</h2>
-                        <label id="label">*Campos obrigatórios</label>
-                        <div class="form-group">
-                            <input class="input__form" type="text" id="nome" required>
-                            <label class="labels_form" id="f_nome" for="nome">* Nome:</label>
-                        </div>
-                        <div class="form-group">
-                            <input id="i_sobrenome" class="input__form" type="text" required>
-                            <label id="f_sobrenome" class="labels_form" for="sobrenome">* Sobrenome:</label>
-                        </div>
-                        <div class="form-group">
-                            <input id="i_email" class="input__form" type="text" required>
-                            <label id="f_email" class="labels_form" for="email">* E-mail:</label>
-                        </div>
-                        <div class="form-group">
-                            <input id="i_telefone" class="input__form" type="text" required>
-                            <label id="f_telefone"class="labels_form" for="telefone"> Telefone:</label>
-                        </div>
-                        <div class="form-group">
-                            <input id="i_cidade" class="input__form" type="text" required>
-                            <label id="f_cidade" class="labels_form" for="cidade"> Cidade:</label>
-                        </div>
-                        <div class="label-isolada"><label>* Assunto</label></div>
-                        <div class="form-group">
-                            <input class="input__form" type="text" id="assunto" required>
-                            <label class="labels_form" for="assunto"> Assunto:</label>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="input__form" name="text" id="mensagem" cols="20" rows="1">
-                            </textarea>
-                            <label class="labels_form" for="mensagem">* Mensagem</label>
-                        </div>
-                        <div class="form-group">
-                        <div class="checkbox">
-                            <div class="check__conteiner">
-                                <input type="checkbox" name="termos" id="checkone">
-                                <label for="checkone">Aceito receber informações sobre notícias e promoções do Méqui.</label>
-                            </div>
-                            <div class="check__conteiner">
-                                <input type="checkbox" name="termos" id="checktwo">
-                                <label for="checktwo">Eu aceito</label>
-                            </div>
-                        </div>
-                        <div class="conteiner__button">
-                            <button>Enviar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        <div class="conteiner__search__camp">
+            <input type="text" id="search_input" placeholder="digite a sua cidade...">
+
+            <ul id="result__input">
+
+            </ul>
         </div>
     </main>
     <footer>
@@ -172,6 +125,7 @@
             </div>
         </div>
     </footer>
-    <script src="constatos.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNIqJi7sltWD9_BgGoBYUma9sG6f6c428&libraries=places&callback=initMap"></script>
+    <script src="index.js"></script>
 </body>
 </html>
