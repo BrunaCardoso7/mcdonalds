@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/stylemain.css">
     <link rel="stylesheet" href="./fontawasome/fontawesome-free-6.4.0-web/css/all.min.css">
-    <link rel="stylesheet" href="/styles/styletrab_con.css">
+    <link rel="stylesheet" href="/styles/contatos.css">
     <title>McDonalds | trabalhe conosco</title>
 </head>
 <body>
@@ -20,7 +20,7 @@
                     
                     <ul id="sideBar__link">
                         <li><a href="trab_conosco.html" class="sideBar__link__text">Trabalhe conosco</a></li>
-                        <li><a href="contatos.html" class="sideBar__link__text">Fale conosco</a></li>
+                        <li><a href="#" class="sideBar__link__text">Fale conosco</a></li>
                         <li><a href="#" class="sideBar__link__text">Méqui mais próximo</a></li>
                     </ul>
                   
@@ -44,44 +44,61 @@
         </div>
     </header>
     <main>
-        <article>
-            <img src="image/Trabalhe_Conosco_7a0dc17674.jpg" alt="" id="img__trab__conosco">
-            <p>
-                Com mais de 50 mil funcionários no Brasil, o McDonald's é um dos maiores empregadores de jovens do país.
-                 Todos os anos, realizamos o sonho do primeiro emprego de muita gente! Do nosso atual quadro de funcionários,
-                  cerca de 76% têm menos de 25 anos de idade e estão em sua primeira experiência.
-            </p>
-            <p>
-                Somos uma das empresas que mais oferece chances de ascensão profissional. Pois, quem trabalha com a gente tem
-                várias oportunidades de desenvolvimento. Incentivamos o estudo e o aprimoramento, e temos orgulho de dizer que
-                hoje aqui no Brasil, mais da metade dos gerentes ingressaram na companhia como atendentes, o primeiro degrau na
-                 escala hierárquica da empresa. Anualmente, são investidos cerca de R$40 milhões em treinamento e desenvolvimento
-                  de funcionários.
-            </p>
-            <p>
-                Aqui, todos têm espaço e oportunidade, não admitimos discriminação e exigimos o mesmo respeito para todos os
-                nossos funcionários, sem qualquer distinção de sexo, idade, raça, orientação sexual, religião ou aparência
-                física.
-            </p>
-            <ul>
-        
-                <h3>Quer fazer parte da nossa equipe?</h3>
-        
-                <li>
-                     Se você procura uma oportunidade como Atendente ou Jovem Aprendiz no restaurante McDonald’s, clique aqui para cadastrar seu currículo.
-                </li>
-                <li>
-                    Para se candidatar a outras oportunidades na área corporativa e programa de estágio do McDonald’s, por favor, clique aqui.
-                </li>
-                <li>
-                    Agora, se você tem algum tipo de deficiência, será muito bem-vindo neste time, clicando aqui.
-                </li>
-            </ul>
-        </article>
-        <iframe id="video__acessibilidade" width="1079" height="607" src="https://www.youtube.com/embed/JSwtjSwN48k"
-        title="Diversidade e Inclusão com Libras" frameborder="0" allow="accelerometer; autoplay;
-         clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-        </iframe>
+        <div id="conteiner__form">
+            <h1 id="title__form">CONTATO</h1>
+            <P id="warning__form">ATENÇÃO: Caso queira enviar seu currículo ou consultar vagas de trabalho disponíveis, <a href="#">clique aqui</a>.</P>
+            <div class="forms">
+                <form action="#" method="post">
+                        <h2>Preencha o formulário abaixo e clique em Enviar</h2>
+                        <label id="label">*Campos obrigatórios</label>
+                        <div class="form-group">
+                            <input class="input__form" type="text" id="nome" required>
+                            <label class="labels_form" id="f_nome" for="nome">* Nome:</label>
+                        </div>
+                        <div class="form-group">
+                            <input class="input__form" type="text" id="sobrenome" required>
+                            <label class="labels_form" for="sobrenome">* Sobrenome:</label>
+                        </div>
+                        <div class="form-group">
+                            <input class="input__form" type="text" id="email" required>
+                            <label class="labels_form" for="email">* E-mail:</label>
+                        </div>
+                        <div class="form-group">
+                            <input class="input__form" type="text" id="telefone" required>
+                            <label class="labels_form" for="telefone"> Telefone:</label>
+                        </div>
+                        <div class="form-group">
+                            <input class="input__form" type="text" id="cidade" required>
+                            <label class="labels_form" for="cidade"> Cidade:</label>
+                        </div>
+                        <div class="label-isolada"><label>* Assunto</label></div>
+                        <div class="form-group">
+                            <input class="input__form" type="text" id="assunto" required>
+                            <label class="labels_form" for="assunto"> Assunto:</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="input__form" name="text" id="mensagem" cols="20" rows="1">
+                            </textarea>
+                            <label class="labels_form" for="mensagem">* Mensagem</label>
+                        </div>
+                        <div class="form-group">
+                        <div class="checkbox">
+                            <div class="check__conteiner">
+                                <input type="checkbox" name="termos" id="checkone">
+                                <label for="checkone">Aceito receber informações sobre notícias e promoções do Méqui.</label>
+                            </div>
+                            <div class="check__conteiner">
+                                <input type="checkbox" name="termos" id="checktwo">
+                                <label for="checktwo">Eu aceito</label>
+                            </div>
+                        </div>
+                        <div class="conteiner__button">
+                            <button>Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="conteiner__footer__onda">
@@ -155,6 +172,6 @@
             </div>
         </div>
     </footer>
-
+    <script src="constatos.js"></script>
 </body>
 </html>

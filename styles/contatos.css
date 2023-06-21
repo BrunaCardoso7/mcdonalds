@@ -1,0 +1,79 @@
+#conteiner__form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+.forms{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+form h2{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.form-group{
+    margin-top: 20px;
+
+}
+.input__form{
+    position: relative;
+    border: none;
+    width: 800px;
+    height: 38px;
+    border-bottom: 1px solid rgb(184, 182, 182);
+}
+.labels_form{
+    position: absolute;
+    left: 1px;
+    font-weight: 300;
+}
+.labels_form-destaque{
+    position: absolute;
+    left: 1px;
+    font-weight: 300;
+    font-size: .7em;
+    margin-bottom: 100px;
+}
+.label-isolada{
+    margin-top: 30px;
+    
+}
+.label-isolada label{
+   font-size: .7em; 
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.check__conteiner{
+    display: flex;
+}
+.check__conteiner label{
+    padding-left: 10px;
+}
+.conteiner__button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.conteiner__button button{
+   border: none;
+   padding: 10px 30px;
+   background-color: rgba(255, 179, 11, 1);
+   color: white;
+   border-radius: 5px;
+   
+}
+.conteiner__button button:hover{
+   border: none;
+   padding: 10px 30px;
+   background-color: rgb(208, 143, 4);
+   color: white;
+   border-radius: 5px;
+   
+}

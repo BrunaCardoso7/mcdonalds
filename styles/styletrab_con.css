@@ -1,3 +1,9 @@
+header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    position: static;
+    width: 100vw;
+    background-color: white;
+}
 #img__trab__conosco{
     border-radius: 10px;
     margin-top: 30px;
@@ -9,7 +15,6 @@ article{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin-top: 100px;
 }
 article p{
@@ -25,12 +30,12 @@ article ul li{
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    margin-top: 100px;
 }
 .flex{
     display: flex;
 }
 .div-onda{
-    position: relative;
     width: 100vw;
     height: 150px;
     background-color: rgba(255, 179, 11, 1);

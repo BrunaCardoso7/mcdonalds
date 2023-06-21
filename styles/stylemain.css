@@ -12,7 +12,9 @@ body, html{
     width: 100%;
 }
 header{
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.16);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    width: 100vw;
+    background-color: white;
 }
 #img__logo__mcdonalds{
     height: 120px;
@@ -86,6 +88,9 @@ header{
 }
 
 /* footer */
+footer{
+    width: 100vw;
+}
 .flex{
     display: flex;
 }
@@ -202,6 +207,7 @@ header{
     align-items: center;
     margin-top: 80px;
     border-top: 1px solid rgb(181, 181, 181);
+    width: 100vw;
 }
 .termos{
     display: flex;
